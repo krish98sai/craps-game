@@ -1,0 +1,9 @@
+Notes for PlayCraps
+
+Potential methods:
+setSeed() - sets the seed for the Random generator
+setChips() - sets the amount of chips for the player
+setCurrentBet() - sets the current bet for the roll
+rollDice() - roll 2 dice and return the values of each and the sum
+checkRoll() - checks if the roll is a win, lose, or point
+setPoint() - sets the point for the roll
