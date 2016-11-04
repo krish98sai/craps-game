@@ -7,3 +7,23 @@ setCurrentBet() - sets the current bet for the roll
 rollDice() - roll 2 dice and return the values of each and the sum
 checkRoll() - checks if the roll is a win, lose, or point
 setPoint() - sets the point for the roll
+
+The game is played with two dice. Each die is six sided
+with the sides labeled 1, 2, 3, 4, 5 and 6.
+Play consists of one or more throws of the dice.
+On a throw each die is tossed once and the result of
+the throw is the sum of the two numbers which show on the dice.
+Specifically one play of the game is goes as follows:
+
+The total for the first throw determines one of
+three ways for the game to continue.
+if 7 or 11, the player immediately wins.
+if a 2, 3 or 12, the player immediately loses.
+if some other total, that number is called the
+players point and more throws of the dice are
+required to determine if he/she wins or loses.
+The player throws the dice repeatedly until the
+result is either a 7 or the result is the point
+again. If a 7 occurs before the point does, the
+player loses. If the point occurs before a 7 the
+player wins.
